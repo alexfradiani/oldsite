@@ -14,7 +14,7 @@ let server = http.createServer(function (req, res) {
   //added: redirect to html in directories
   var urlseg = url.split('/');
   if (urlseg[urlseg.length - 1].indexOf('.')  < 0) // append index if no file specified
-    url += 'index.html'; 
+    url += '/index.html'; 
 
   // IMPORTANT: Your application HAS to respond to GET /health with status 200
   //            for OpenShift health monitoring
