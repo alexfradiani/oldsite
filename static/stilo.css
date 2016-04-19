@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:'Ubuntu', Helvetica, Arial, sans-serif;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-size:14px;
+	color:#666666;
+	background-color:#D4D4D4;
+}
+a {
+	text-decoration:underline;
+	color:inherit;
+	margin:0;
+	border:0;
+}
+img {
+	border:0;
+}
+
+h1 {
+	color:#fff;
+	font-size:inherit;
+}
+
+#cabezal {
+	margin-bottom:5px; 
+	background-color:#ffffff; 
+	text-align:right;
+	padding-top:5px;
+	padding-right:8px;
+	padding-bottom:4px;
+}
+#div_nombre {
+	background-color:#ffffff;
+	text-align:left;
+	height: 80px;
+}
+#div_barratop {
+	background-color:#002F17;
+	text-align: left;
+	float: none;
+	border-top: 7px solid #000000;
+	height: 40px;
+}
+#subtx_1 {
+	margin-left: 5px;
+	margin-top: 38px;
+	float: left;
+}
+#div_secc {
+	/*float:right;*/
+	width:100%;
+	text-align:justify;
+	margin-top: 10px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+#div_contenido {
+	background-color:#fff;
+	margin-top: 5px;
+	float: none;
+	clear:both;
+}
+#div_contenido_soft {
+	margin-top: 5px;
+	float: none;
+	clear:both;
+}
+
+#div_footer {
+	border-top:7px solid #000000;
+	background-color: #002F17;
+	color: #DBDBDB;
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 13px;
+}
+
+
+.titulo_seccion {
+	padding: 5px 2px;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.cont_columna_izquierda {
+	float:left;
+	width: 180px;
+}
+.cont_columna_centro {
+	float:left;
+	width: 375px;
+	margin-left: 0px;
+}
+.cont_columna_derecha {
+	float:left;
+	width: 445px;
+	margin-left: 0px;
+}
+.div_proy {
+	margin-bottom: 20px;
+}
+.cont_block {
+	border-top:5px solid #000000;
+	border-bottom: 5px solid #000000;
+	background-color: #fff;
+	height: 364px;
+	text-align: justify;
+}
+.cont_block_video {
+	border-top:5px solid #000000;
+	border-bottom: 5px solid #000000;
+	background-color: #fff;
+	height: 344px;
+	text-align: justify;
+	padding: 10px;
+}
+.cont_block_texto {
+	float:left;
+	width:150px;
+	margin: 10px;
+	text-align: left;
+}
+.cont_block_centro_texto {
+	float:left;
+	width:345px;
+	margin: 10px;
+}
+.cont_block_separador {
+	background-color:#D4D4D4;
+	width:10px;
+	height:364px;
+	float:left;
+}
+
+.cont_tab {
+	text-align:left;
+	background-image:url(images/menu_tab.png);
+	background-repeat:no-repeat;
+	min-width:116px;
+	min-height:26px;
+}
+.cont_titulo {
+	margin-left:10px;
+	color: #fff;
+	padding-top: 5px;
+}
+
+.audio_item {
+	margin-bottom:15px;
+}
